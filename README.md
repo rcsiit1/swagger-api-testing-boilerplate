@@ -80,4 +80,4 @@
 * Run your project in terminal with *sails lift* command.
 * Hit the following URL in your browser window
 http://localhost:1337/docs/ <br/>
-![swagger-ui](/images/swagger-ui.png)
+![swagger-ui](/images/swaggger-ui.png)

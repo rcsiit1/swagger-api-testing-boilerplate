@@ -1,18 +1,19 @@
 # swagger-api-testing-boilerplate
 
-###Installation
+##Installation
 
-1.Clone the git repository.
-2.Keep the docs folder in assets directory of your sails project.
-3. Then change in *swag.json*
+*Clone the git repository.
+*Keep the docs folder in assets directory of your sails project.
+* Then change in *swag.json*
 ```javascript
 "host": "localhost:1337",
   "basePath": "/",
 ```
 
-4. Add the api routes you want to test in *swag.json*
+* Add the api routes you want to test in *swag.json*
 ```javascript
-"paths": {    
+"paths": {  
+//this the route to check api
     "/students/createStudent": {
       "post": {
         "tags": [
@@ -22,6 +23,7 @@
         "produces": [
           "application/xml"
         ],
+        // the parameters that the api uses
         "parameters": [
           {
             "name": "name",

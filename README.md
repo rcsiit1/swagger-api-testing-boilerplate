@@ -1,9 +1,11 @@
 # swagger-api-testing-boilerplate
 
-##Installation
+## Installation
 
-*Clone the git repository.
-*Keep the docs folder in assets directory of your sails project.
+* Clone the git repository.
+
+* Keep the docs folder in assets directory of your sails project.
+![GitHub Logo](/Desktop/Screen Shot 2018-06-26 at 4.33.03 PM)
 * Then change in *swag.json*
 ```javascript
 "host": "localhost:1337",

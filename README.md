@@ -4,8 +4,8 @@
 
 * Clone the git repository.
 
-* Keep the docs folder in assets directory of your sails project.
-* ![assests hierarchy](/images/assets.png)
+* Keep the docs folder in assets directory of your sails project.<br/>
+![assests hierarchy](/images/assets.png)
 
 * Then change in *swag.json*
 ```javascript

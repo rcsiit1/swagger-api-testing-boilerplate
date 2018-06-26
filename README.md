@@ -79,5 +79,8 @@
 ```
 * Run your project in terminal with *sails lift* command.
 * Hit the following URL in your browser window
-http://localhost:1337/docs/ <br/>
+http://localhost:1337/docs/ <br/><br/><br/>
 ![swagger-ui](/images/swaggger-ui.png)
+<br/><br/>
+
+* Enjoy testing your APIs with swagger on sails js.

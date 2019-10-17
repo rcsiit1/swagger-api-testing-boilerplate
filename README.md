@@ -1,5 +1,9 @@
 # swagger-api-testing-boilerplate
 Swagger is an open source tool to test the APIs made in javascript.The api can be tested based on the paramters set in the datastore.The complete body of the response with the headers and response code is shown on the user interface.Integrating this wonderful tool helps you test and debug your apis quickly in your project.Here is the boiler plate to include in your sails project to start running with the swagger tool.
+
+## Additional Plugins
+- [Swagger Generator Sails Hook](https://www.npmjs.com/package/sails-hook-swagger-generator)  - This sails hook generates `swag.json` file from the routes mentioned in the `route.js` file in the config directory.
+
 ## Installation
 
 * Clone the git repository.
@@ -84,3 +88,5 @@ http://localhost:1337/docs/ <br/><br/><br/>
 <br/><br/>
 
 * Enjoy testing your APIs with swagger on sails js.
+
+* For more details on the paramters that can be used in `swag.json` and to know more about Open API 3.0 specifications, please visit [Swagger](https://swagger.io/)
